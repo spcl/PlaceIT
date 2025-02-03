@@ -1,7 +1,7 @@
 # PlaceIT
 
 <p align="center">
-  <img src="misc/placeit.svg">
+  <img src="placeit.svg">
 </p>
 
 ## Setup Guide
