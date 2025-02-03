@@ -1,0 +1,55 @@
+{
+    "1.0": {
+        "packet_latency": {
+            "avg": 159.853,
+            "min": 13.0,
+            "max": 13.0
+        },
+        "network_latency": {
+            "avg": 159.852,
+            "min": 13.0,
+            "max": 13.0
+        },
+        "flit_latency": {
+            "avg": 163.67,
+            "min": 13.0,
+            "max": 13.0
+        },
+        "fragmentation": {
+            "avg": 17.5485,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "injected_packet_rate": {
+            "avg": 0.00640437,
+            "min": 0.002332,
+            "max": 0.002332
+        },
+        "accepted_packet_rate": {
+            "avg": 0.00640422,
+            "min": 0.002153,
+            "max": 0.002153
+        },
+        "injected_flit_rate": {
+            "avg": 0.0225248,
+            "min": 0.005564,
+            "max": 0.005564
+        },
+        "accepted_flit_rate": {
+            "avg": 0.0225242,
+            "min": 0.00864,
+            "max": 0.00864
+        },
+        "injected_packet_size": {
+            "avg": 3.51709
+        },
+        "accepted_packet_size": {
+            "avg": 3.51709
+        },
+        "hops": {
+            "avg": 4.22181
+        },
+        "total_run_time_cycles": 1000000.0,
+        "total_run_time": 299.003
+    }
+}

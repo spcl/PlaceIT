@@ -1,0 +1,248 @@
+{
+    "best_inst": {
+        "typ": "heterogeneous",
+        "sub_instance": {
+            "types": [
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "M",
+                "I",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "I",
+                "C",
+                "M",
+                "C",
+                "C",
+                "M",
+                "I",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "I",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "M",
+                "C",
+                "C",
+                "C",
+                "C"
+            ],
+            "rotations": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                270,
+                270,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                90,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                180,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                90,
+                0,
+                0,
+                0,
+                0
+            ],
+            "cost": 8.56789479858132,
+            "eval": {
+                "c2c_lat": 145.5241935483871,
+                "c2c_tp": 0.0996995882501356,
+                "c2m_lat": 156.5234375,
+                "c2m_tp": 0.031005859374999997,
+                "c2i_lat": 170.1953125,
+                "c2i_tp": 0.03027343750000001,
+                "m2i_lat": 160.625,
+                "m2i_tp": 1.0,
+                "area": 483
+            }
+        }
+    },
+    "updates": [
+        [
+            0.2592264190025162,
+            9.862414904720659
+        ],
+        [
+            0.6369403970020358,
+            8.77233600970022
+        ],
+        [
+            59.57790041601402,
+            8.56789479858132
+        ]
+    ],
+    "parameters": {
+        "algorithms": [
+            "bl",
+            "br",
+            "ga",
+            "sa"
+        ],
+        "representation": "heterogeneous",
+        "time_budget": 3600,
+        "repetitions": 10,
+        "norm_samples": 500,
+        "mutation_mode": "any-one",
+        "n_compute": 32,
+        "n_memory": 4,
+        "n_io": 4,
+        "dimensions": {
+            "C": [
+                3,
+                3
+            ],
+            "M": [
+                4,
+                5
+            ],
+            "I": [
+                3,
+                4
+            ]
+        },
+        "phys": {
+            "C": [
+                {
+                    "pos": [
+                        0.2,
+                        1.5
+                    ]
+                },
+                {
+                    "pos": [
+                        2.8,
+                        1.5
+                    ]
+                },
+                {
+                    "pos": [
+                        1.5,
+                        0.2
+                    ]
+                },
+                {
+                    "pos": [
+                        1.5,
+                        2.8
+                    ]
+                }
+            ],
+            "M": [
+                {
+                    "pos": [
+                        0.2,
+                        2.5
+                    ]
+                }
+            ],
+            "I": [
+                {
+                    "pos": [
+                        0.2,
+                        2.0
+                    ]
+                }
+            ]
+        },
+        "relay_chiplets": [
+            "C"
+        ],
+        "dist_type": "euclidean",
+        "max_length": 3,
+        "L_relay": 10,
+        "L_phy": 12,
+        "L_link": 1,
+        "debug_info": false,
+        "debug_frac_sa": 0.05,
+        "debug_frac_ga": 0.5,
+        "cf_weights": {
+            "c2c_lat": 0.1,
+            "c2c_tp": 0.1,
+            "c2m_lat": 2,
+            "c2m_tp": 2,
+            "c2i_lat": 0.1,
+            "c2i_tp": 0.1,
+            "m2i_lat": 2,
+            "m2i_tp": 2,
+            "area": 2
+        },
+        "mutation_bias": 0.5,
+        "sa_cooling": "lin-mult",
+        "sa_adaptive": true,
+        "sa_T0": 33,
+        "sa_L": 50,
+        "sa_a": 1,
+        "sa_b": 5,
+        "ga_P": 30,
+        "ga_E": 6,
+        "ga_T": 6,
+        "ga_pm": 0.5,
+        "ga_sel_fun": "tournament",
+        "eval_traces": [
+            "lngrex",
+            "blackscholes_64c_simsmall",
+            "fluidanimate_64c_simsmall"
+        ],
+        "experiment": "32cores_hetero",
+        "rotation_behaviour": {
+            "C": "invariant",
+            "M": "sensitive",
+            "I": "sensitive"
+        },
+        "cf_normalizers": {
+            "c2c_lat": 156.95183467741944,
+            "c2c_tp": 0.10622304756184418,
+            "c2m_lat": 196.08984375,
+            "c2m_tp": 0.028109647799405255,
+            "c2i_lat": 193.9296875,
+            "c2i_tp": 0.02811413359551656,
+            "m2i_lat": 243.378125,
+            "m2i_tp": 0.7811919191919191,
+            "area": 509.486
+        }
+    },
+    "n_generated": 8446
+}

@@ -1,0 +1,343 @@
+{
+    "best_inst": {
+        "typ": "homogeneous",
+        "sub_instance": {
+            "grid": [
+                [
+                    "M",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "I"
+                ],
+                [
+                    "I",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "M"
+                ],
+                [
+                    "M",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "I"
+                ],
+                [
+                    "I",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "M"
+                ],
+                [
+                    "M",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "I"
+                ],
+                [
+                    "I",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "M"
+                ],
+                [
+                    "M",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "I"
+                ],
+                [
+                    "I",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "C",
+                    "M"
+                ]
+            ],
+            "phys": [
+                [
+                    "E",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "W"
+                ],
+                [
+                    "E",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "W"
+                ],
+                [
+                    "E",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "W"
+                ],
+                [
+                    "E",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "W"
+                ],
+                [
+                    "E",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "W"
+                ],
+                [
+                    "E",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "W"
+                ],
+                [
+                    "E",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "W"
+                ],
+                [
+                    "E",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "A",
+                    "W"
+                ]
+            ],
+            "cost": 8.892525372859229,
+            "eval": {
+                "c2c_lat": 176.66666666666666,
+                "c2c_tp": 0.12495550699849028,
+                "c2m_lat": 239.375,
+                "c2m_tp": 0.03125,
+                "c2i_lat": 239.375,
+                "c2i_tp": 0.03125,
+                "m2i_lat": 274.375,
+                "m2i_tp": 1.0,
+                "area": 720
+            }
+        }
+    },
+    "updates": [],
+    "parameters": {
+        "algorithms": [
+            "bl",
+            "br",
+            "ga",
+            "sa"
+        ],
+        "representation": "homogeneous",
+        "time_budget": 3600,
+        "repetitions": 10,
+        "norm_samples": 500,
+        "mutation_mode": "neighbors-one",
+        "n_compute": 64,
+        "n_memory": 8,
+        "n_io": 8,
+        "dimensions": {
+            "C": [
+                3,
+                3
+            ],
+            "M": [
+                3,
+                3
+            ],
+            "I": [
+                3,
+                3
+            ]
+        },
+        "phys": {
+            "C": [
+                {
+                    "pos": [
+                        1.5,
+                        2.8
+                    ]
+                },
+                {
+                    "pos": [
+                        2.8,
+                        1.5
+                    ]
+                },
+                {
+                    "pos": [
+                        1.5,
+                        0.2
+                    ]
+                },
+                {
+                    "pos": [
+                        0.2,
+                        1.5
+                    ]
+                }
+            ],
+            "M": [
+                {
+                    "pos": [
+                        2.8,
+                        1.5
+                    ]
+                }
+            ],
+            "I": [
+                {
+                    "pos": [
+                        2.8,
+                        1.5
+                    ]
+                }
+            ]
+        },
+        "relay_chiplets": [
+            "C"
+        ],
+        "dist_type": "euclidean",
+        "max_length": 3,
+        "L_relay": 10,
+        "L_phy": 12,
+        "L_link": 1,
+        "debug_info": false,
+        "debug_frac_sa": 0.05,
+        "debug_frac_ga": 0.5,
+        "rows": 8,
+        "cols": 10,
+        "cf_weights": {
+            "c2c_lat": 0.1,
+            "c2c_tp": 0.1,
+            "c2m_lat": 2,
+            "c2m_tp": 2,
+            "c2i_lat": 0.1,
+            "c2i_tp": 0.1,
+            "m2i_lat": 2,
+            "m2i_tp": 2,
+            "area": 2
+        },
+        "mutation_bias": 0.5,
+        "sa_cooling": "lin-mult",
+        "sa_adaptive": true,
+        "sa_T0": 35,
+        "sa_L": 50,
+        "sa_a": 1,
+        "sa_b": 5,
+        "ga_P": 50,
+        "ga_E": 8,
+        "ga_T": 8,
+        "ga_pm": 0.5,
+        "ga_sel_fun": "tournament",
+        "eval_traces": [
+            "lngrex",
+            "blackscholes_64c_simsmall",
+            "fluidanimate_64c_simsmall"
+        ],
+        "experiment": "64cores_homo",
+        "cf_normalizers": {
+            "c2c_lat": 228.22486111111104,
+            "c2c_tp": 0.0602413863637871,
+            "c2m_lat": 268.97296875,
+            "c2m_tp": 0.025857982231297875,
+            "c2i_lat": 267.814140625,
+            "c2i_tp": 0.025866745039536423,
+            "m2i_lat": 315.4453125,
+            "m2i_tp": 0.7101588682310492,
+            "area": 720.0
+        }
+    }
+}
