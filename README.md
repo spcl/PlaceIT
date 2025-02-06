@@ -23,7 +23,7 @@ cd RapidChiplet/booksim2/src
 make
 ```
 
-## Reproducing results from the PlaceIT paper
+## Reproducing results from the PlaceIT paper [3]
 
 ### The "baseline" configuration
 
@@ -60,3 +60,5 @@ Do you have any questions or did you find a bug? Contact us at patrick.iff@inf.e
 [1] Jiang, N., Becker, D.U., Michelogiannakis, G., Balfour, J., Towles, B., Shaw, D.E., Kim, J. and Dally, W.J., 2013, April. A detailed and flexible cycle-accurate network-on-chip simulator. In 2013 IEEE international symposium on performance analysis of systems and software (ISPASS) (pp. 86-96). IEEE.
 
 [2] https://github.com/booksim/booksim2
+
+[3] https://arxiv.org/abs/2502.01449
